@@ -3,7 +3,7 @@
 **Student Name:** Yermek Tuzelkhan  
 **Group:** IT-2513  
 **Course:** Front-End Development / Web Technologies  
-**Live Site (GitHub Pages):** [https://your-username.github.io/assignment1](https://your-username.github.io/assignment1)
+**Live Site (GitHub Pages):** [https://ytuzelkhan.github.io/first_assignment](https://ytuzelkhan.github.io/first_assignment/)
 
 ---
 
