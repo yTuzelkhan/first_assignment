@@ -7,11 +7,6 @@
 
 ---
 
-## Objective
-The objective of this assignment is to demonstrate a foundational understanding of HTML5 structure and web page elements[cite: 1]. This includes setting up an HTML document, structuring text, using lists, tables, images, links, forms, and preparing the layout using structural elements[cite: 1].
-
----
-
 ## Tasks & Implementation Screenshots
 
 ### Part 1: Introduction to HTML
@@ -21,8 +16,7 @@ The objective of this assignment is to demonstrate a foundational understanding 
 * **Step 3 – Images & Links:** Inserted a photo using `<img>` and clickable outbound links using `<a>`[cite: 1].
 * **Step 4 – HTML Buttons:** Added a simple `<button>` element with the text "Click Me"[cite: 1].
 
-*(Insert Screenshot Below)*  
-![Part 1 Screenshot](./screenshots/part1.png)
+
 <img width="1914" height="277" alt="изображение" src="https://github.com/user-attachments/assets/e5402931-e313-4ace-8163-9cdc475de6b1" />
 <img width="1906" height="832" alt="изображение" src="https://github.com/user-attachments/assets/05756d3c-d62a-4a86-bd9b-fa99b22ae5ca" />
 <img width="1908" height="855" alt="изображение" src="https://github.com/user-attachments/assets/be4f9ddc-eb8e-4210-9c1b-2468cfc750b8" />
@@ -39,11 +33,13 @@ The objective of this assignment is to demonstrate a foundational understanding 
 * **Step 7 – Emojis:** Added 3 unicode emojis inside a paragraph describing mood[cite: 1].
 * **Step 8 – HTML Forms:** Built a form containing input fields for Name (`text`), Email (`email`), Favorite Color (`color`), and a Submit button[cite: 1].
 
-*(Insert Screenshot Below)*  
-![Part 2 Screenshot](./screenshots/part2.png)
+
 <img width="1695" height="508" alt="изображение" src="https://github.com/user-attachments/assets/891376f6-25bd-4682-b74d-6e250d954079" />
 <img width="1912" height="223" alt="изображение" src="https://github.com/user-attachments/assets/508ba63a-3d30-4a78-94fc-46b26330d353" />
 <img width="1470" height="898" alt="изображение" src="https://github.com/user-attachments/assets/055d9c4a-d3e0-46ff-b9b9-59f7f4794c9e" />
 <img width="1459" height="383" alt="изображение" src="https://github.com/user-attachments/assets/7ab0f4ed-9e76-440a-b6d5-26c47082bdf7" />
 
 ---
+### Work Process Summary
+
+I started by setting up VS Code, creating the project folder, and writing the basic HTML5 boilerplate (<!DOCTYPE html>, <html>, <head>, <title>, <body>) inside index.html.  Next, I structured the content for Part 1 by adding headings (<h1> to <h3>) for my name and details, a short paragraph, an ordered list of hobbies, an unordered list of favorite websites, an image tag, clickable links, and a basic button.  For Part 2, I added a schedule table with columns for Subject, Day, and Time, created a multi-column table layout, inserted emojis into a paragraph, and built an HTML form containing inputs for Name, Email, Favorite Color, and a Submit button.  Finally, I committed my files to a public GitHub repository and enabled GitHub Pages to publish the website live. 
