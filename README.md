@@ -10,11 +10,11 @@
 ## Tasks & Implementation Screenshots
 
 ### Part 1: Introduction to HTML
-* **Step 0 – Boilerplate & Title:** Created `index.html` with basic HTML5 structure (`<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`) and titled it "My First Webpage"[cite: 1].
-* **Step 1 – Text Structure:** Added `<h1>` through `<h3>` headings with personal details and a brief `<p>` description[cite: 1].
-* **Step 2 – HTML Lists:** Created an ordered list (`<ol>`) for hobbies and an unordered list (`<ul>`) for favorite websites[cite: 1].
-* **Step 3 – Images & Links:** Inserted a photo using `<img>` and clickable outbound links using `<a>`[cite: 1].
-* **Step 4 – HTML Buttons:** Added a simple `<button>` element with the text "Click Me"[cite: 1].
+* **Step 0 – Boilerplate & Title:** Created `index.html` with basic HTML5 structure (`<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`) and titled it "My First Webpage".
+* **Step 1 – Text Structure:** Added `<h1>` through `<h3>` headings with personal details and a brief `<p>` description.
+* **Step 2 – HTML Lists:** Created an ordered list (`<ol>`) for hobbies and an unordered list (`<ul>`) for favorite websites.
+* **Step 3 – Images & Links:** Inserted a photo using `<img>` and clickable outbound links using `<a>`.
+* **Step 4 – HTML Buttons:** Added a simple `<button>` element with the text "Click Me".
 
 
 <img width="1914" height="277" alt="изображение" src="https://github.com/user-attachments/assets/e5402931-e313-4ace-8163-9cdc475de6b1" />
@@ -28,10 +28,10 @@
 ---
 
 ### Part 2: Intermediate HTML
-* **Step 5 – Schedule Table:** Created a table with columns for "Subject", "Day", and "Time" displaying a weekly class schedule[cite: 1].
-* **Step 6 – Table Layout:** Structured a two-column layout using table elements (menu on the left, main content on the right)[cite: 1].
-* **Step 7 – Emojis:** Added 3 unicode emojis inside a paragraph describing mood[cite: 1].
-* **Step 8 – HTML Forms:** Built a form containing input fields for Name (`text`), Email (`email`), Favorite Color (`color`), and a Submit button[cite: 1].
+* **Step 5 – Schedule Table:** Created a table with columns for "Subject", "Day", and "Time" displaying a weekly class schedule.
+* **Step 6 – Table Layout:** Structured a two-column layout using table elements (menu on the left, main content on the right).
+* **Step 7 – Emojis:** Added 3 unicode emojis inside a paragraph describing mood.
+* **Step 8 – HTML Forms:** Built a form containing input fields for Name (`text`), Email (`email`), Favorite Color (`color`), and a Submit button.
 
 
 <img width="1695" height="508" alt="изображение" src="https://github.com/user-attachments/assets/891376f6-25bd-4682-b74d-6e250d954079" />
@@ -42,4 +42,10 @@
 ---
 ### Work Process Summary
 
-I started by setting up VS Code, creating the project folder, and writing the basic HTML5 boilerplate (<!DOCTYPE html>, <html>, <head>, <title>, <body>) inside index.html.  Next, I structured the content for Part 1 by adding headings (<h1> to <h3>) for my name and details, a short paragraph, an ordered list of hobbies, an unordered list of favorite websites, an image tag, clickable links, and a basic button.  For Part 2, I added a schedule table with columns for Subject, Day, and Time, created a multi-column table layout, inserted emojis into a paragraph, and built an HTML form containing inputs for Name, Email, Favorite Color, and a Submit button.  Finally, I committed my files to a public GitHub repository and enabled GitHub Pages to publish the website live. 
+I started by setting up VS Code, creating the project folder, and writing the basic HTML5 boilerplate (`<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`) inside `index.html`. 
+
+Next, I structured the content for Part 1 by adding headings (`<h1>` to `<h3>`) for my name and details, a short paragraph, an ordered list of hobbies, an unordered list of favorite websites, an image tag, clickable links, and a basic button. 
+
+For Part 2, I added a schedule table with columns for Subject, Day, and Time, created a multi-column table layout, inserted emojis into a paragraph, and built an HTML form containing inputs for Name, Email, Favorite Color, and a Submit button. 
+
+Finally, I committed my files to a public GitHub repository and enabled GitHub Pages to publish the website live.
