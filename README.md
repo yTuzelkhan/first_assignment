@@ -1,8 +1,8 @@
-# Assignment #1: HTML & CSS Basics
+# Assignment #1: HTML
 
 **Student Name:** Yermek Tuzelkhan  
 **Group:** IT-2513  
-**Course:** Front-End Development / Web Technologies  
+**Course:** Front-End Development 
 **Live Site (GitHub Pages):** [https://ytuzelkhan.github.io/first_assignment](https://ytuzelkhan.github.io/first_assignment/)
 
 ---
