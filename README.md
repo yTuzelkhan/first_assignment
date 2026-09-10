@@ -1,4 +1,4 @@
-# Assignment #1: HTML
+# Assignment #1: HTML & CSS Basics
 
 **Student Name:** Yermek Tuzelkhan  
 **Group:** IT-2513  
@@ -10,11 +10,11 @@
 ## Tasks & Implementation Screenshots
 
 ### Part 1: Introduction to HTML
-* **Step 0 – Boilerplate & Title:** Created `index.html` with basic HTML5 structure (`<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`) and titled it "My First Webpage".
-* **Step 1 – Text Structure:** Added `<h1>` through `<h3>` headings with personal details and a brief `<p>` description.
-* **Step 2 – HTML Lists:** Created an ordered list (`<ol>`) for hobbies and an unordered list (`<ul>`) for favorite websites.
-* **Step 3 – Images & Links:** Inserted a photo using `<img>` and clickable outbound links using `<a>`.
-* **Step 4 – HTML Buttons:** Added a simple `<button>` element with the text "Click Me".
+* **Step 0 – Create HTML File & Boilerplate:** Created `index.html` with standard HTML5 boilerplate structure (`<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`) and titled the page "My First Webpage".
+* **Step 1 – Structure Text:** Added `<h1>`, `<h2>`, and `<h3>` tags for my name, course name, and section headers, along with a `<p>` paragraph describing myself.
+* **Step 2 – HTML Lists:** Created an ordered list (`<ol>`) listing my hobbies (Playing football, Reading books, Watching movies) and an unordered list (`<ul>`) with links to my favorite websites.
+* **Step 3 – Images and Links:** Used `<img>` to insert an EXPO photo and added clickable `<a>` links targeting external sites (Codeforces, YouTube, Instagram) and internal page anchors.
+* **Step 4 – HTML Buttons:** Placed a `<button>` element with the text "Click Me" inside the main content section.
 
 
 <img width="1914" height="277" alt="изображение" src="https://github.com/user-attachments/assets/e5402931-e313-4ace-8163-9cdc475de6b1" />
@@ -28,10 +28,10 @@
 ---
 
 ### Part 2: Intermediate HTML
-* **Step 5 – Schedule Table:** Created a table with columns for "Subject", "Day", and "Time" displaying a weekly class schedule.
-* **Step 6 – Table Layout:** Structured a two-column layout using table elements (menu on the left, main content on the right).
-* **Step 7 – Emojis:** Added 3 unicode emojis inside a paragraph describing mood.
-* **Step 8 – HTML Forms:** Built a form containing input fields for Name (`text`), Email (`email`), Favorite Color (`color`), and a Submit button.
+* **Step 5 – Tables:** Created a schedule table using `<table>`, `<tr>`, `<th>`, and `<td>` tags with columns for "Subject", "Day", and "Time".
+* **Step 6 – Using Tables for Layout:** Built a two-column layout table inside the header dividing the page menu links on the left from main description text on the right using `rowspan="3"`.
+* **Step 7 – Typing Emojis:** Inserted Unicode emoji entities (`&#128293;&#128077;&#128640;`) inside the header paragraph to display 🔥, 👍, and 🚀.
+* **Step 8 – HTML Forms:** Created an interactive form in the footer with `<input>` fields for Name (`text`), Email (`email`), Favorite Color (`text`), and a Submit button.
 
 
 <img width="1695" height="508" alt="изображение" src="https://github.com/user-attachments/assets/891376f6-25bd-4682-b74d-6e250d954079" />
