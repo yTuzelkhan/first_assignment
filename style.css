@@ -1,0 +1,85 @@
+body{
+    position: relative;
+    padding-bottom: 100px;
+}
+#name{
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.section-title{
+    color: rgb(20, 20, 33);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#main-heading{
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.highlight{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.header{
+    background-color: rgb(103, 161, 180);
+    padding: 20px;
+    text-align: center;
+    border: 5px dotted black;
+    position: static;
+}
+.main_content{
+    background-color: rgb(152, 159, 161);
+    border: 5px solid rgb(101, 19, 19);
+    padding: 20px;
+    top: 15px;
+    left: 2em;
+    margin-bottom: 180px;
+    position: relative;
+}
+
+.footer{
+    background-color: rgb(103, 161, 180);
+    padding: 20px;
+    text-align: center;
+    border: 5px dotted black;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    
+}
+
+#expo{
+    width: 30%;
+}
+
+
+
+.box-container {
+    background-color: rgb(220, 230, 240);
+    border: 3px solid black;
+    padding: 15px;
+    margin-top: 20px;
+}
+.left-box {
+    float: left;
+    width: 45%;
+    background-color: rgb(255, 200, 200);
+    border: 2px solid red;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.right-box {
+    float: right;
+    width: 45%;
+    background-color: rgb(200, 255, 200);
+    border: 2px solid green;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.clear-fix {
+    clear: both;
+}

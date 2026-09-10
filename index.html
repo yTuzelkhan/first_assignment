@@ -2,79 +2,105 @@
 <html lang="en">
 <head>
     <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="248595983.jpeg">
+    <style>
+       body {
+            background-color: lightblue;
+            font-family: Arial;
+        }
+    </style>
 </head>
-<body   >
-    <h1>My first webpage</h1>
-    <p>This is my first webpage. I am learning HTML and CSS. I am excited to learn more about web development. &#128293;&#128077;&#128640;</p>
-   <table width="100%" border="1">
-        <tr>
-            <th>Menu</th>
-            <th>main content</th>
-        </tr>
-        <tr><td><a href="#hobbies">My hobbies</a></td>
-            <td rowspan="3">This is the main content of the webpage. Here you can find information about me, my hobbies, and my favorite websites.</td>
-        </tr>
-        <tr><td><a href="#2">My favorite websites</a></td></tr>
-        <tr><td><a href="#1">Table</a></td></tr>
-   </table>
+<body  >
+
+   <div class="header">
+        <h1 id="main-heading">My first webpage</h1>
+        <p style="color:blue">This is my first webpage. I am learning HTML and CSS. I am excited to learn more about web development. &#128293;&#128077;&#128640;</p>
+    <table width="100%" border="1">
+            <tr>
+                <th>Menu</th>
+                <th>main content</th>
+            </tr>
+            <tr><td><a class="highlight" href="#hobbies">My hobbies</a></td>
+                <td rowspan="3">This is the main content of the webpage. Here you can find information about me, my hobbies, and my favorite websites.</td>
+            </tr>
+            <tr><td><a class="highlight" href="#2">My favorite websites</a></td></tr>
+            <tr><td><a class="highlight" href="#1">Table</a></td></tr>
+    </table>
+   </div>
    <br><br><br>
 
 
 
+    <div class="main_content">
+        <h1 id="name">Yermek Tuzelkhan</h1>
+        <h2 class="section-title">Introduction to Web Development(Frontend)</h2>
+        <h3 class="section-title">About Me:</h3>
+        <p  class="section-title">My name is Yermek Tuzelkhan. I am a student at AITU. I am currently studying Computer Science. 
+            I have a strong interest in web development and I am excited to learn more about it.</p>
+        <br><br><br>
+        <b><h1 id="hobbies">My hobbies:</h1></b>
+        <ol>
+            <li>Playing football</li>
+            <li>Reading books</li>
+            <li>Watching movies</li>
+        </ol>
+        <br><br><br>
+        <b><h1 id="2">My favorite websites:</h1></b>
+        <ul>
+            <li><a href="https://codeforces.com">Codeforces</a></li>
+            <li><a href="https://www.youtube.com">YouTube</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+        </ul>
+        <button>Click Me</button>
+        <br><br><br>
+        <b><h1>EXPO:</h1></b>
+        <img id="expo" src="photo_2026-09-07_21-15-03.jpg">
+        <br><br><br>
+        <table border="1" id="1">
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>Monday</td>
+                <td>08:00-09:00</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>Wednesday</td>
+                <td>10:00-11:00</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>Friday</td>
+                <td>14:00-15:00</td>
+            </tr>
+        </table>
 
-    <h1>Yermek Tuzelkhan</h1>
-    <h2>Introduction to Web Development(Frontend)</h2>
-    <h3>About Me:</h3>
-    <p>My name is Yermek Tuzelkhan. I am a student at AITU. I am currently studying Computer Science. 
-        I have a strong interest in web development and I am excited to learn more about it.</p>
+        <div class="box-container">
+            <div class="left-box">
+                <h3>Box Floated Left</h3>
+            </div>
+
+            <div class="right-box">
+                <h3>Box Floated Right</h3>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+    </div>
     <br><br><br>
-    <b><h1 id="hobbies">My hobbies:</h1></b>
-    <ol>
-        <li>Playing football</li>
-        <li>Reading books</li>
-        <li>Watching movies</li>
-    </ol>
-    <br><br><br>
-    <b><h1 id="2">My favorite websites:</h1></b>
-    <ul>
-        <li><a href="https://codeforces.com">Codeforces</a></li>
-        <li><a href="https://www.youtube.com">YouTube</a></li>
-        <li><a href="https://www.instagram.com">Instagram</a></li>
-    </ul>
-    <button>Click Me</button>
-    <br><br><br>
-    <b><h1>EXPO:</h1></b>
-    <img src="photo_2026-09-07_21-15-03.jpg" width="500">
-    <br><br><br>
-    <table border="1" id="1">
-        <tr>
-            <th>Subject</th>
-            <th>Day</th>
-            <th>Time</th>
-        </tr>
-        <tr>
-            <td>Mathematics</td>
-            <td>Monday</td>
-            <td>08:00-09:00</td>
-        </tr>
-        <tr>
-            <td>Physics</td>
-            <td>Wednesday</td>
-            <td>10:00-11:00</td>
-        </tr>
-        <tr>
-            <td>Chemistry</td>
-            <td>Friday</td>
-            <td>14:00-15:00</td>
-        </tr>
-    </table>
-    <br><br><br>
-    <b><h1>Some information about you:</h1></b>
-    <form>
-        <input type="text" placeholder="Name"><br><br>
-        <input type="email" placeholder="Email"><br><br>
-        <input type="text" placeholder="Favorite Color"><br><br>
-        <button>Submit</button>
-    </form>
+
+    <div class="footer">
+        <b><h1>Some information about you:</h1></b>
+        <form>
+            <input type="text" placeholder="Name"><br><br>
+            <input type="email" placeholder="Email"><br><br>
+            <input type="text" placeholder="Favorite Color"><br><br>
+            <button>Submit</button>
+        </form>
+    <div>
 </body>
 </html>
