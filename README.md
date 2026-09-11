@@ -56,15 +56,15 @@
 * **Step 15 – Favicons:** Linked a tab icon to the webpage inside the `<head>` section using `<link rel="icon" type="image/png" href="248595983.jpeg">`.
 * **Step 16 – HTML Divs:** Grouped the page content into three main layout sections using `<div class="header">`, `<div class="main_content">`, and `<div class="footer">`.
 * **Step 17 – Box Model:** Applied `padding: 20px`, `margin-bottom`, and borders (`5px dotted black` for header/footer, `5px solid rgb(101, 19, 19)` for main content) to demonstrate box model spacing.
-* **Step 18 – CSS Positioning:** Set `.header` to `position: static`, shifted `.main_content` using `position: relative` (`top: 15px; left: 2em;`), and anchored `.footer` using `position: absolute` (`bottom: 20px; left: 20px; right: 20px;`).
-* **Step 19 – CSS Sizing:** Applied different sizing units across elements including pixels (`font-size: 50px`), percentages (`width: 30%` on `#expo`), and relative em units (`left: 2em`).
+* **Step 18 – CSS Positioning:** Set `.header` to `position: static`, shifted `.main_content` using `position: relative` (`top: 2em;`), and anchored `.footer` using `position: absolute` (`bottom: 20px; left: 20px; right: 20px;`).
+* **Step 19 – CSS Sizing:** Applied different sizing units across elements including pixels (`font-size: 50px`), percentages (`width: 30%` on `#expo`), and relative em units (`top: 2em`).
 * **Step 20 – Float and Clear:** Created a `.box-container` containing `.left-box` (`float: left; width: 45%`) and `.right-box` (`float: right; width: 45%`), and used `<div class="clear-fix"></div>` with `clear: both;` to fix layout collapsing.
 * **Step 21 – Publish Your First Website:** Committed and pushed all code files to GitHub and published the site live using GitHub Pages.
 
 <img width="1247" height="306" alt="изображение" src="https://github.com/user-attachments/assets/970bd2a5-9d6d-4d36-aed5-c47a166598e2" />
 <img width="1620" height="819" alt="изображение" src="https://github.com/user-attachments/assets/4b4f2eb9-0b5e-458c-a3fe-3165c22139ea" />
 <img width="1537" height="666" alt="изображение" src="https://github.com/user-attachments/assets/a10ff16e-ce70-420a-b1c1-be1fe69ee577" />
-<img width="1524" height="832" alt="изображение" src="https://github.com/user-attachments/assets/a9ef3559-ceef-49df-a78f-659cd25e155a" />
+<img width="1586" height="719" alt="изображение" src="https://github.com/user-attachments/assets/57f98b4e-8079-43d1-95ba-9eac2817bf13" />
 <img width="1455" height="304" alt="изображение" src="https://github.com/user-attachments/assets/8a2116cc-64b3-4b93-8aae-5cbea07eb47a" />
 <img width="1280" height="682" alt="изображение" src="https://github.com/user-attachments/assets/696a40ec-a4b5-4422-a56b-a3f9b99b8b12" />
 
