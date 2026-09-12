@@ -42,31 +42,39 @@
 ---
 
 ### Part 3: Introduction to CSS
-* **Step 9 – Intro to CSS:** Added CSS rules to style typography, text sizes, element colors, backgrounds, and layout structure across the webpage.
-* **Step 10 – Inline CSS:** Applied inline styling directly on the top paragraph tag using `style="color:blue"`.
-* **Step 11 – Internal CSS:** Added an internal `<style>` tag inside the `<head>` of `index.html` to set global `body` background color to `lightblue` and font family to `Arial`.
-* **Step 12 – External CSS:** Created `style.css` and linked it to `index.html` using `<link rel="stylesheet" href="style.css">` to manage external styles.
-* **Step 13 – CSS Syntax & Selectors:** Used element selectors (`body`), class selectors (`.highlight`, `.section-title`), and ID selectors (`#name`, `#main-heading`) to target and style specific elements.
-* **Step 14 – Classes vs. IDs:** Created the class `.highlight` to apply black text color across multiple navigation links, and used unique ID selectors `#name` and `#main-heading` to style specific `<h1>` elements.
+* **Step 9 – Intro to CSS:** Added CSS rules to style typography, background colors, borders, positioning, and container layouts.
+* **Step 10 – Inline CSS:** Applied inline styling directly on the header paragraph using `style="color:rgb(0, 0, 0)"` and on the section title using `style="color: #243b53; text-align: center;"`.
+* **Step 11 – Internal CSS:** Added an internal `<style>` tag inside the `<head>` of `index.html` setting global `body` background color to `#f4f7fb` and font family to `Arial`.
+* **Step 12 – External CSS:** Created `style.css` and linked it using `<link rel="stylesheet" href="style.css">` to manage external styles.
+* **Step 13 – CSS Syntax & Selectors:** Used element selectors (`body`), class selectors (`.highlight`, `.section-title`, `.header`, `.main_content`, `.footer`, `.box-container`, `.left-box`, `.right-box`), and ID selectors (`#name`, `#main-heading`, `#expo`, `#1`) to style elements.
+* **Step 14 – Classes vs. IDs:** Created the class `.highlight` to format navigation links (`color: #34495e; font-size: 20px`), and used ID selectors (`#name`, `#main-heading`) for primary headings with Georgia serif font (`color: #1e3a5f; font-size: 50px`).
 
-<img width="1545" height="775" alt="изображение" src="https://github.com/user-attachments/assets/d54d5c31-89ab-4b8b-8376-e285c71b9f11" />
-<img width="1546" height="926" alt="изображение" src="https://github.com/user-attachments/assets/d6851d7f-ffe3-4dbd-92ed-bd63f2693493" />
+<img width="1541" height="810" alt="изображение" src="https://github.com/user-attachments/assets/4203f8fd-a407-4a0b-a0c0-ed5ec1715b82" />
+<img width="1403" height="54" alt="изображение" src="https://github.com/user-attachments/assets/12662e36-6d6e-451a-9f88-02586d38c690" />
+<img width="783" height="36" alt="изображение" src="https://github.com/user-attachments/assets/83deb6f1-5245-46f3-8999-e5af3a50b351" />
+<img width="862" height="318" alt="изображение" src="https://github.com/user-attachments/assets/84a76a30-4b5b-4f06-883e-35661a77e6f2" />
+<img width="1591" height="933" alt="изображение" src="https://github.com/user-attachments/assets/022fca61-fb2b-424a-a83c-20b84fd884c1" />
+
+
+
 
 ### Part 4: Intermediate CSS
+### Part 4: Intermediate CSS
 * **Step 15 – Favicons:** Linked a tab icon to the webpage inside the `<head>` section using `<link rel="icon" type="image/png" href="248595983.jpeg">`.
-* **Step 16 – HTML Divs:** Grouped the page content into three main layout sections using `<div class="header">`, `<div class="main_content">`, and `<div class="footer">`.
-* **Step 17 – Box Model:** Applied `padding: 20px`, `margin-bottom`, and borders (`5px dotted black` for header/footer, `5px solid rgb(101, 19, 19)` for main content) to demonstrate box model spacing.
-* **Step 18 – CSS Positioning:** Set `.header` to `position: static`, shifted `.main_content` using `position: relative` (`top: 2em;`), and anchored `.footer` using `position: absolute` (`bottom: 20px; left: 20px; right: 20px;`).
-* **Step 19 – CSS Sizing:** Applied different sizing units across elements including pixels (`font-size: 50px`), percentages (`width: 30%` on `#expo`), and relative em units (`top: 2em`).
-* **Step 20 – Float and Clear:** Created a `.box-container` containing `.left-box` (`float: left; width: 45%`) and `.right-box` (`float: right; width: 45%`), and used `<div class="clear-fix"></div>` with `clear: both;` to fix layout collapsing.
-* **Step 21 – Publish Your First Website:** Committed and pushed all code files to GitHub and published the site live using GitHub Pages.
+* **Step 16 – HTML Divs:** Grouped page content into structured container sections (`<div class="header">`, `<div class="main_content">`, `<div class="footer">`, and `.box-container`).
+* **Step 17 – Box Model:** Configured `padding: 20px`, `margin-bottom`, and custom borders (`4px solid #3b82f6` with `border-radius: 15px` for header/footer; `4px solid #64748b` for main content).
+* **Step 18 – CSS Positioning:** Styled `body` with `position: relative`, configured `.header` with default `position: static`, shifted `.main_content` using `position: relative` (`top: 2em; margin-bottom: 180px;`), and pinned `.footer` using `position: absolute` (`bottom: 20px; left: 20px; right: 20px;`).
+* **Step 19 – CSS Sizing:** Applied sizing units including pixels (`font-size: 50px; padding: 20px`), percentages (`width: 30%` on `#expo`, `width: 45%` on floated boxes), and relative em units (`top: 2em`).
+* **Step 20 – Float and Clear:** Built a `.box-container` containing a floated `.left-box` (`float: left; width: 45%; background-color: #fff3e0; border: 2px solid #e67e22;`) for HTML and a floated `.right-box` (`float: right; width: 45%; background-color: #eaf2ff; border: 2px solid #3498db;`) for CSS, cleared using `<div class="clear-fix"></div>` with `clear: both;`.
+* **Step 21 – Publish Your First Website:** Committed and pushed all code files to GitHub and published the sit
 
-<img width="1247" height="306" alt="изображение" src="https://github.com/user-attachments/assets/970bd2a5-9d6d-4d36-aed5-c47a166598e2" />
-<img width="1620" height="819" alt="изображение" src="https://github.com/user-attachments/assets/4b4f2eb9-0b5e-458c-a3fe-3165c22139ea" />
-<img width="1537" height="666" alt="изображение" src="https://github.com/user-attachments/assets/a10ff16e-ce70-420a-b1c1-be1fe69ee577" />
-<img width="1586" height="719" alt="изображение" src="https://github.com/user-attachments/assets/57f98b4e-8079-43d1-95ba-9eac2817bf13" />
-<img width="1455" height="304" alt="изображение" src="https://github.com/user-attachments/assets/8a2116cc-64b3-4b93-8aae-5cbea07eb47a" />
-<img width="1280" height="682" alt="изображение" src="https://github.com/user-attachments/assets/696a40ec-a4b5-4422-a56b-a3f9b99b8b12" />
+<img width="611" height="52" alt="изображение" src="https://github.com/user-attachments/assets/0a0e326f-3745-4343-9721-fd53e0633ff0" />
+<img width="1142" height="736" alt="изображение" src="https://github.com/user-attachments/assets/9f1deadb-c8c9-4ecf-8fc7-4f4d0a64b952" />
+<img width="901" height="711" alt="изображение" src="https://github.com/user-attachments/assets/308763ff-9d48-418c-88f9-f089ab2fa840" />
+<img width="641" height="108" alt="изображение" src="https://github.com/user-attachments/assets/2ece5926-b406-4884-b557-789f92d794f8" />
+<img width="1009" height="753" alt="изображение" src="https://github.com/user-attachments/assets/cbb9fbfb-170c-4d89-a6ed-a716c2d22306" />
+
+
 
 ---
 ## Work Process Summary
